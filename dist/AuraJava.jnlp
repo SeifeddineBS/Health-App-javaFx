@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AuraJava.jnlp">
+  <information>
+    <title>AuraJava</title>
+    <vendor>SeifBS</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AuraJava.jar" size="6737694" download="eager" />
+    <jar href="lib\AnimateFX-1.2.0.jar" size="85823" download="eager" />
+    <jar href="lib\GNAvatarView-1.0-rc.jar" size="26082" download="eager" />
+    <jar href="lib\GNButton-1.1.0.jar" size="194323" download="eager" />
+    <jar href="lib\GNCalendar-1.0-alpha.jar" size="11402" download="eager" />
+    <jar href="lib\GNCarousel-2.1.5.jar" size="530460" download="eager" />
+    <jar href="lib\GNDecorator-2.1.2-alpha.jar" size="2869249" download="eager" />
+    <jar href="lib\PDFjet.jar" size="260396" download="eager" />
+    <jar href="lib\TrayNotification.jar" size="41019" download="eager" />
+    <jar href="lib\TrayTester.jar" size="52070" download="eager" />
+    <jar href="lib\bridj-0.7.0.jar" size="935929" download="eager" />
+    <jar href="lib\cmu_time_awb.jar" size="1723774" download="eager" />
+    <jar href="lib\cmu_us_kal.jar" size="4899359" download="eager" />
+    <jar href="lib\cmudict04.jar" size="894905" download="eager" />
+    <jar href="lib\cmulex.jar" size="599429" download="eager" />
+    <jar href="lib\cmutimelex.jar" size="1231" download="eager" />
+    <jar href="lib\colors-1.4.jar" size="32122" download="eager" />
+    <jar href="lib\controlsfx-8.40.11.jar" size="985420" download="eager" />
+    <jar href="lib\controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="lib\en_us.jar" size="866598" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\freetts-jsapi10.jar" size="56313" download="eager" />
+    <jar href="lib\freetts.jar" size="208668" download="eager" />
+    <jar href="lib\hamcrest-core-1.3.jar" size="45024" download="eager" />
+    <jar href="lib\itextpdf-5.5.9.jar" size="2287148" download="eager" />
+    <jar href="lib\javax.mail-1.6.2.jar" size="659031" download="eager" />
+    <jar href="lib\javax.mail.jar" size="659033" download="eager" />
+    <jar href="lib\jcommon-1.0.23.jar" size="330246" download="eager" />
+    <jar href="lib\jfoenix-8.0.10.jar" size="2710207" download="eager" />
+    <jar href="lib\jfoenix-8.0.7.jar" size="2631271" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib\jfreechart-1.0.19-experimental.jar" size="13796" download="eager" />
+    <jar href="lib\jfreechart-1.0.19-swt.jar" size="79793" download="eager" />
+    <jar href="lib\jfreechart-1.0.19.jar" size="1570157" download="eager" />
+    <jar href="lib\jfreesvg-2.0.jar" size="50769" download="eager" />
+    <jar href="lib\junit-4.11.jar" size="245039" download="eager" />
+    <jar href="lib\jxmaps-1.3.1.jar" size="859749" download="eager" />
+    <jar href="lib\jxmaps-win-1.3.1.jar" size="50757483" download="eager" />
+    <jar href="lib\jxmapsdemo.jar" size="1108867" download="eager" />
+    <jar href="lib\mbrola.jar" size="11926" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\orsoncharts-1.4-eval-nofx.jar" size="445025" download="eager" />
+    <jar href="lib\orsonpdf-1.6-eval.jar" size="72444" download="eager" />
+    <jar href="lib\pdfbox-app-2.0.22.jar" size="9918496" download="eager" />
+    <jar href="lib\restfb-1.18.0.jar" size="264745" download="eager" />
+    <jar href="lib\restfb-3.13.0.jar" size="719621" download="eager" />
+    <jar href="lib\scenicView.jar" size="524264" download="eager" />
+    <jar href="lib\servlet.jar" size="80054" download="eager" />
+    <jar href="lib\slf4j-api-1.7.2.jar" size="26083" download="eager" />
+    <jar href="lib\swtgraphics2d.jar" size="17492" download="eager" />
+    <jar href="lib\tilesfx-1.5.2.jar" size="1365796" download="eager" />
+    <jar href="lib\twilio-8.9.0-jar-with-dependencies.jar" size="8358946" download="eager" />
+    <jar href="lib\webcam-capture-0.3.12.jar" size="428314" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AuraJava" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Aura.Aura"  name="AuraJava" />
+  <update check="always"/>
+</jnlp>
